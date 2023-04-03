@@ -1,0 +1,7 @@
+Pyrogram==2.0.30
+TgCrypto==1.2.3
+python-dotenv
+uvloop
+aiohttp
+pymongo[srv]==3.12.3
+motor==2.5.1
