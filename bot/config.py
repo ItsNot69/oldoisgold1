@@ -30,4 +30,4 @@ class Config(object):
 class Script(object):
     START_MESSAGE = os.environ.get("START_MESSAGE", "Start message")
     ACCEPT_MESSAGE = os.environ.get(
-        "ACCEPT_MESSAGE", "You have been accepted to the channel.")
+        "ACCEPT_MESSAGE", "You have been accepted to the channel.\n\nɪᴛ ᴄᴀɴ ᴀᴄᴄᴇᴘᴛ ʙᴏᴛʜ ɴᴇᴡ ᴀɴᴅ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛ. ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛ/ɢʀᴏᴜᴘ\n\nᴄᴏɴᴛᴀᴄᴛ ᴜꜱ @Botadmin44")
