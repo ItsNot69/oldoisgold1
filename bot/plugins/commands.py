@@ -7,8 +7,7 @@ from bot.utils import accept_all_requests, add_new_user
 @Client.on_message(filters.command("start"))
 async def start(client, message):
     await add_new_user(message.from_user.id)
-    await message.reply_text<b>("ɪᴛ ᴄᴀɴ ᴀᴄᴄᴇᴘᴛ ʙᴏᴛʜ ɴᴇᴡ ᴀɴᴅ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛ. ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛ/ɢʀᴏᴜᴘ/n/nᴄᴏɴᴛᴀᴄᴛ ᴜꜱ @Botadmin44"
-                            contact_button = InlineKeyboardButton("📱 Contact", url=f"t.me/Botadmin44")</b>)
+    await message.reply_text("ɪᴛ ᴄᴀɴ ᴀᴄᴄᴇᴘᴛ ʙᴏᴛʜ ɴᴇᴡ ᴀɴᴅ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛ. ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛ/ɢʀᴏᴜᴘ/n/nᴄᴏɴᴛᴀᴄᴛ ᴜꜱ @Botadmin44")
 
 
 @Client.on_message(filters.command("approve") & filters.private & filters.user(Config.OWNER_ID))
