@@ -30,4 +30,4 @@ class Config(object):
 class Script(object):
     START_MESSAGE = os.environ.get("START_MESSAGE", "Start message")
     ACCEPT_MESSAGE = os.environ.get(
-        "ACCEPT_MESSAGE", "Your Request To Join {m.chat.title} Was Approved") 
+        "ACCEPT_MESSAGE", "Hello {m.from_user.mention}!\nYour Request To Join Was Approved") 
