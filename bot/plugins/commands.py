@@ -10,7 +10,8 @@ async def start(client, message):
     await add_new_user(message.from_user.id)
     
     # Create the inline keyboard markup
-    keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("Join My Channel", url="https://t.me/cyniyebackup")]])
+    keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("Request Group", url=f"t.me/born4movies7")],
+                                    [InlineKeyboardButton("Backup Channel", url=f"t.me/b4backupchnanel")]])
     
     await message.reply_text(
         "ɪᴛ ᴄᴀɴ ᴀᴄᴄᴇᴘᴛ ʙᴏᴛʜ ɴᴇᴡ ᴀɴᴅ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛ. ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛ/ɢʀᴏᴜᴘ\n\nᴄᴏɴᴛᴀᴄᴛ ᴜꜱ @Botadmin44",
