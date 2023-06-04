@@ -23,8 +23,8 @@ class Config(object):
     CHAT_ID = [int(x) for x in os.environ.get(
         "CHAT_ID", "-1001811570311").split()]
     SESSION_STRING = os.environ.get("SESSION_STRING", "BQGtHfYAec7-xLDFRHpMbWcuTc0laakaE4goiCLLhQLlRBJ3R596G6cbdRxRXmusvdr4YsS0czQ9FfI3RfcoRO98qoDuhdakuVwEuBNpZTlO9epsFkFBjpmS2d4z4nvuFVz2ES3xURZIcixqdmCznHzKKnWo47eYhXQ_0JEWwbAZoTJoHBJNA7RbpYZ0Pcrv1vxPuJGRuVmiPi397LkqzmoIqCr6c1PBcmHDVxi1UxSYaEpv9uopW2trH6Lh5IP-pTuhZQ35M5oZDHe8QHMiCm3s5wt9dInJf73vP50tLm4S5CkpRmjLrITM-l2HM1lt5s6iDh5BHG27lggbyW3WCqn7LHlJjgAAAAFZz5IaAA")
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://finalaccept:Rohit44@cluster0.ftmhdcc.mongodb.net/?retryWrites=true&w=majority")
-    MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "telegram")
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://m0921594:jkl@741@cluster0.ebk9wx3.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "OLdisGold")
 
 
 class Script(object):
