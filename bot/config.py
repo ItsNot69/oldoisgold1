@@ -21,7 +21,7 @@ class Config(object):
     OWNER_ID = int(os.environ.get("OWNER_ID", "5521380948"))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "True"), True)
     CHAT_ID = [int(x) for x in os.environ.get(
-        "CHAT_ID", "-1001630135640").split()]
+        "CHAT_ID", "-1001635703650").split()]
     SESSION_STRING = os.environ.get("SESSION_STRING", "BQGtHfYAec7-xLDFRHpMbWcuTc0laakaE4goiCLLhQLlRBJ3R596G6cbdRxRXmusvdr4YsS0czQ9FfI3RfcoRO98qoDuhdakuVwEuBNpZTlO9epsFkFBjpmS2d4z4nvuFVz2ES3xURZIcixqdmCznHzKKnWo47eYhXQ_0JEWwbAZoTJoHBJNA7RbpYZ0Pcrv1vxPuJGRuVmiPi397LkqzmoIqCr6c1PBcmHDVxi1UxSYaEpv9uopW2trH6Lh5IP-pTuhZQ35M5oZDHe8QHMiCm3s5wt9dInJf73vP50tLm4S5CkpRmjLrITM-l2HM1lt5s6iDh5BHG27lggbyW3WCqn7LHlJjgAAAAFZz5IaAA")
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://m0921594:8A2mcGVTT3eDnkBk@cluster0.i7dsnm5.mongodb.net/?retryWrites=true&w=majority")
     MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "Telegram")
