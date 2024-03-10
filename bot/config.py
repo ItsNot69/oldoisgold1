@@ -22,7 +22,7 @@ class Config(object):
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "True"), True)
     CHAT_ID = [int(x) for x in os.environ.get(
         "CHAT_ID", "-1001892721748").split()]
-    SESSION_STRING = os.environ.get("SESSION_STRING", "BQGMcpgAvvJSBwKA03kkMoLAnkuZjW_AnBxa3FKycw9p0u8YpgDX_PqQt6hHseUjV0R9m_viuLLOUbUBEft0uCF5IhChEH-qO5viDebwoY7wl44zbuYuuOgG6tAedMHvZ1Gq-3lyFA8wL9COduFag1wo6EMBzQRgy-YZqojEC0i_kfnKB50VFv9MYdwL8xcAH4y3OGgL7LcZGC6HTjevzHOoH3T5TT1Db5s0Ypf8Ijat9Eh7j6qI_fQX1CzuZHuisDhByrpbMVK6HOLE02ZNBKF4r9u3YUDwfQ3DtTlWg7X-qyupxtdfxp6gtf3FSMTctbDMfaad4lYONs_0fH01v67g1ikJ2QAAAAF7bZGqAA")
+    SESSION_STRING = os.environ.get("SESSION_STRING", "BQGkDLEAhbmv4nkwbt0IYrMUMVS1YGbdh97lLuo2KYRE5ZYUl3W__lXahM5LszZEcimRwWNvKNDxd1klIJvFtDLSc8PTTJWll8sINZQHrXXOYO3iLN7KMFTfPGnJCMTrPCrTUOQH-EtMQjsbc3Kb_s1YqL8nzVC3PU5S-MsQkkRSpdZqX2RcSx0ZZHXwFz1_1Vty11qn67P-rmtH0jG5oBQtRjUaOArgSjTfUil7Z1mG4r55_iCLEpfe4Lr851wBsEW8OWOzA3-70zboUoXu0in1slyZs1MveoYsr-KoHvXstegRJzo0IeI3Yam7R9mTI4RqcsbKxIPaH71xV_oCaJWaomDX9QAAAAGawFWaAQ")
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://m0921594:Rohit11@cluster0.i7dsnm5.mongodb.net/?retryWrites=true&w=majority")
     MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "Telegram")
 
