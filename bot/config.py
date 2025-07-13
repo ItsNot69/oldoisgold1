@@ -14,8 +14,8 @@ def is_enabled(value, default):
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", "21787593"))
-    API_HASH = os.environ.get("API_HASH", "0a5c5e27ce46ad36e19eb91c02affb99")
+    API_ID = int(os.environ.get("API_ID", "23288831"))
+    API_HASH = os.environ.get("API_HASH", "def18c4d797c63b4155f9562f4a1428d")
     BOT_TOKEN = os.environ.get(
         "BOT_TOKEN", "6059695462:AAHHGQk0mQj-Q06Yt7_8yoiBejI-HwCN90k")
     OWNER_ID = int(os.environ.get("OWNER_ID", "5521380948"))
